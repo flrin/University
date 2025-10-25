@@ -1,0 +1,38 @@
+     1                                  bits 32 ;asamblare și compilare pentru arhitectura de 32 biți
+     2                                  ; definim punctul de intrare in programul principal
+     3                                  global start
+     4                                  
+     5                                  ; declaram functiile externe necesare programului nostru 
+     6                                  extern exit ; indicam asamblorului ca exit exista, chiar daca noi nu o vom defini
+     7                                  import exit msvcrt.dll  ; exit este o functie care incheie procesul, este definita in msvcrt.dll
+     8                                          ; msvcrt.dll contine exit, printf si toate celelalte functii C-runtime importante
+     9                                  
+    10                                  ; segmentul de date in care se vor defini variabilele 
+    11                                  segment data use32 class=data
+    12                                  ; ... 
+    13 00000000 08                          a db 8
+    14 00000001 F1                          b db -15
+    15 00000002 02                          c db 2
+    16 00000003 05                          d db 5
+    17                                  ; segmentul de cod
+    18                                  segment code use32 class=code
+    19                                  start:
+    20                                  ; ... 
+    21 00000000 B800000000                  mov eax, 0
+    22                                      ;mov eax, 0
+    23 00000005 A0[00000000]                mov al, [a]
+    24 0000000A 6698                        cbw
+    25 0000000C 0205[00000000]              add al, [a]
+    26 00000012 2A05[02000000]              sub al, [c]
+    27                                      
+    28 00000018 8A25[01000000]              mov ah, [b]
+    29 0000001E 0225[01000000]              add ah, [b]
+    30 00000024 0225[01000000]              add ah, [b]
+    31 0000002A 0225[03000000]              add ah, [d]
+    32                                      
+    33 00000030 28E0                        sub al, ah
+    34 00000032 6698                        cbw
+    35                                      
+    36                                      ; exit(0)
+    37 00000034 6A00                        push dword 0 ; se pune pe stiva parametrul functiei exit
+    38 00000036 FF15[00000000]              call [exit] ; apelul functiei exit pentru terminarea executiei programului

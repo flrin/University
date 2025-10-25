@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\School\\sem2\\dsa\\Lab4Ex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ListIterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\ListIterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ListIterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\ListIterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\SortedIteratedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\SortedIteratedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\SortedIteratedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\SortedIteratedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ExtendedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\ExtendedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ShortTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\ShortTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ShortTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74CFF93F-4B1B-44B6-9114-E41EE7DE0638}|Lab4Ex\\Lab4Ex.vcxproj|solutionrelative:Lab4Ex\\ShortTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 258,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShortTest.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ShortTest.cpp",
+              "RelativeDocumentMoniker": "Lab4Ex\\ShortTest.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ShortTest.cpp",
+              "RelativeToolTip": "Lab4Ex\\ShortTest.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-05T18:31:43.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SortedIteratedList.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\SortedIteratedList.cpp",
+              "RelativeDocumentMoniker": "Lab4Ex\\SortedIteratedList.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\SortedIteratedList.cpp",
+              "RelativeToolTip": "Lab4Ex\\SortedIteratedList.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-16T07:40:49.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListIterator.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ListIterator.cpp",
+              "RelativeDocumentMoniker": "Lab4Ex\\ListIterator.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ListIterator.cpp",
+              "RelativeToolTip": "Lab4Ex\\ListIterator.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwBYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-16T07:39:16.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\App.cpp",
+              "RelativeDocumentMoniker": "Lab4Ex\\App.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\App.cpp",
+              "RelativeToolTip": "Lab4Ex\\App.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-16T07:39:08.568Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 276,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExtendedTest.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ExtendedTest.cpp",
+              "RelativeDocumentMoniker": "Lab4Ex\\ExtendedTest.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ExtendedTest.cpp",
+              "RelativeToolTip": "Lab4Ex\\ExtendedTest.cpp",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAMwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-05T18:34:00.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShortTest.h",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ShortTest.h",
+              "RelativeDocumentMoniker": "Lab4Ex\\ShortTest.h",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ShortTest.h",
+              "RelativeToolTip": "Lab4Ex\\ShortTest.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-06T18:21:20.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListIterator.h",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ListIterator.h",
+              "RelativeDocumentMoniker": "Lab4Ex\\ListIterator.h",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\ListIterator.h",
+              "RelativeToolTip": "Lab4Ex\\ListIterator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-16T07:40:52.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortedIteratedList.h",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\SortedIteratedList.h",
+              "RelativeDocumentMoniker": "Lab4Ex\\SortedIteratedList.h",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab4Ex\\Lab4Ex\\SortedIteratedList.h",
+              "RelativeToolTip": "Lab4Ex\\SortedIteratedList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-16T07:40:42.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

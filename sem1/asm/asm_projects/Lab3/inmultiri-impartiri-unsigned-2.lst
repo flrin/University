@@ -1,0 +1,45 @@
+     1                                  bits 32 ;asamblare și compilare pentru arhitectura de 32 biți
+     2                                  ; definim punctul de intrare in programul principal
+     3                                  global start
+     4                                  
+     5                                  ; declaram functiile externe necesare programului nostru 
+     6                                  extern exit ; indicam asamblorului ca exit exista, chiar daca noi nu o vom defini
+     7                                  import exit msvcrt.dll  ; exit este o functie care incheie procesul, este definita in msvcrt.dll
+     8                                          ; msvcrt.dll contine exit, printf si toate celelalte functii C-runtime importante
+     9                                  
+    10                                  ; segmentul de date in care se vor defini variabilele 
+    11                                  segment data use32 class=data
+    12                                  ; ... 
+    13 00000000 08                          a db 8
+    14 00000001 06                          b db 6
+    15 00000002 03                          c db 3
+    16 00000003 02000000                    d dd 2
+    17 00000007 0C00000000000000            e dq 12
+    18                                  
+    19                                  ; segmentul de cod
+    20                                  segment code use32 class=code
+    21                                  start:
+    22                                  ; ... 
+    23                                  
+    24                                      ;2/(a+b*c-9)+e-d
+    25                                      
+    26 00000000 A0[01000000]                mov al, [b]
+    27 00000005 F625[02000000]              mul byte[c]
+    28 0000000B 660305[00000000]            add ax, [a]
+    29 00000012 6683E809                    sub ax, 9
+    30                                      
+    31 00000016 66BA0000                    mov dx, 0
+    32 0000001A 6689C3                      mov bx, ax
+    33 0000001D 66B80200                    mov ax, 2
+    34 00000021 66F7F3                      div bx
+    35 00000024 98                          cwde
+    36                                      
+    37 00000025 BA00000000                  mov edx, 0
+    38 0000002A 0305[07000000]              add eax, [e]
+    39 00000030 0315[0B000000]              add edx, [e+4]
+    40                                      
+    41 00000036 2B05[03000000]              sub eax, [d]
+    42                                      
+    43                                      ; exit(0)
+    44 0000003C 6A00                        push dword 0 ; se pune pe stiva parametrul functiei exit
+    45 0000003E FF15[00000000]              call [exit] ; apelul functiei exit pentru terminarea executiei programului

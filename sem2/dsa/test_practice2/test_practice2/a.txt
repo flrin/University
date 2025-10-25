@@ -1,0 +1,2 @@
+BMI, 2025.05.05, 200, is ok?: 0
+BP, 2026.12.12, systolic value: 70, disastolic value: 80, is ok?: 0

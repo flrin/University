@@ -1,0 +1,9 @@
+find -type f
+grep -v (inverted match)
+read -p "enter: " (reading with a prompt)
+du -bs (nr of bytes)
+grep "\<word\>" (doar cuv)
+wc -l (nr cuv pe linie)
+uniq -c (nr aparitiilor)
+cut (kinda awk)
+kill (kills things)

@@ -1,0 +1,47 @@
+     1                                  bits 32 ;asamblare și compilare pentru arhitectura de 32 biți
+     2                                  ; definim punctul de intrare in programul principal
+     3                                  global start
+     4                                  
+     5                                  ; declaram functiile externe necesare programului nostru 
+     6                                  extern exit ; indicam asamblorului ca exit exista, chiar daca noi nu o vom defini
+     7                                  import exit msvcrt.dll  ; exit este o functie care incheie procesul, este definita in msvcrt.dll
+     8                                          ; msvcrt.dll contine exit, printf si toate celelalte functii C-runtime importante
+     9                                          
+    10                                  ; segmentul de date in care se vor defini variabilele 
+    11                                  segment data use32 class=data
+    12                                  ; ... 
+    13 00000000 21402324255E262A            def_list db '!','@','#','$','%','^','&','*'
+    14 00000008 2B3432614033242A            s db '+', '4', '2', 'a', '@', '3', '$', '*'
+    15                                      len equ $-s
+    16 00000010 <res 00000008>              d resb len
+    17                                      
+    18                                  ; segmentul de cod
+    19                                  segment code use32 class=code
+    20                                  start:
+    21                                  ; ... 
+    22 00000000 BE00000000                  mov esi, 0
+    23 00000005 B908000000                  mov ecx, len
+    24 0000000A BB00000000                  mov ebx, 0
+    25                                      
+    26                                      test_while:
+    27 0000000F 51                              push ecx
+    28 00000010 B907000000                      mov ecx, 7
+    29                                          
+    30                                          check_all:
+    31 00000015 8A81[00000000]                      mov al, [def_list + ecx]
+    32 0000001B 3886[08000000]                      cmp byte[s + esi], al
+    33 00000021 750D                                jne gasit
+    34 00000023 8A86[08000000]                      mov al, [s+esi]
+    35 00000029 8883[10000000]                      mov [d + ebx], al
+    36 0000002F 43                                  inc ebx
+    37                                              gasit:
+    38 00000030 E2E3                            loop check_all
+    39                                          
+    40 00000032 46                              inc esi
+    41 00000033 59                              pop ecx
+    42                                          
+    43 00000034 E2D9                        loop test_while
+    44                                  
+    45                                      ; exit(0)
+    46 00000036 6A00                        push dword 0 ; se pune pe stiva parametrul functiei exit
+    47 00000038 FF15[00000000]              call [exit] ; apelul functiei exit pentru terminarea executiei programului

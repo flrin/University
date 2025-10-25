@@ -1,0 +1,88 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  extern printf,scanf,fprintf,fread,exit, fopen, fclose
+     6                                  
+     7                                  import exit msvcrt.dll
+     8                                  import printf msvcrt.dll
+     9                                  import scanf msvcrt.dll
+    10                                  import fprintf msvcrt.dll
+    11                                  import fread msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  
+    15                                  segment data use32 class=data
+    16 00000000 746578742E74787400          filename db "text.txt", 0
+    17 00000009 256400                      number_read_format db "%d", 0
+    18 0000000C 257300                      string_read_format db "%s", 0
+    19 0000000F 25730D0A00                  string_write_format db "%s",13, 10, 0
+    20 00000014 7700                        acces_mode db "w", 0
+    21 00000016 <res 00000004>              file_descriptor resd 1
+    22 0000001A <res 00000001>              n resb 1
+    23 0000001B <res 0000000A>              string resb 10
+    24                                      
+    25                                  segment code use32 class=code
+    26                                      start:
+    27 00000000 68[14000000]                push acces_mode
+    28 00000005 68[00000000]                push filename
+    29 0000000A FF15[00000000]              call [fopen]
+    30 00000010 83C408                      add esp, 4 * 2
+    31                                      
+    32 00000013 A3[16000000]                mov [file_descriptor], eax
+    33                                      
+    34 00000018 68[1A000000]                push n
+    35 0000001D 68[09000000]                push number_read_format
+    36 00000022 FF15[00000000]              call [scanf]
+    37 00000028 83C408                      add esp, 4 * 2
+    38                                      
+    39                                      read_loop:        
+    40 0000002B 68[1B000000]                    push string
+    41 00000030 68[0C000000]                    push string_read_format
+    42 00000035 FF15[00000000]                  call [scanf]
+    43 0000003B 83C408                          add esp, 4 * 2
+    44                                          
+    45 0000003E 803D[1B000000]23                cmp byte[string], "#"
+    46 00000045 7452                            je exit_loop
+    47                                          
+    48 00000047 B000                            mov al, 0
+    49 00000049 BB00000000                      mov ebx, 0
+    50 0000004E B964000000                      mov ecx, 100
+    51 00000053 BF[1B000000]                    mov edi, string
+    52                                          count_letters:
+    53 00000058 AE                                  scasb 
+    54 00000059 7403                                je exit_count
+    55 0000005B 43                                  inc ebx
+    56 0000005C E2FA                            loop count_letters
+    57                                          
+    58                                          exit_count:
+    59                                          
+    60 0000005E 3A1D[1A000000]                  cmp bl, byte[n]
+    61 00000064 722C                            jb word_too_small
+    62                                          
+    63 00000066 BE[1B000000]                        mov esi, string
+    64 0000006B 81C3[1B000000]                      add ebx, string
+    65 00000071 83EB01                              sub ebx, 1
+    66 00000074 89DF                                mov edi, ebx
+    67 00000076 A6                                  cmpsb
+    68 00000077 7519                                jne not_same
+    69                                                  
+    70 00000079 68[1B000000]                            push string
+    71 0000007E 68[0F000000]                            push string_write_format
+    72 00000083 FF35[16000000]                          push dword[file_descriptor]
+    73 00000089 FF15[00000000]                          call [fprintf]
+    74 0000008F 83C40C                                  add esp, 4 * 3
+    75                                                  
+    76                                          word_too_small:
+    77                                          not_same:
+    78 00000092 B900000000                      mov ecx, 0
+    79 00000097 E292                        loop read_loop
+    80                                      
+    81                                      exit_loop:
+    82                                      
+    83 00000099 FF35[16000000]              push dword[file_descriptor]
+    84 0000009F FF15[00000000]              call [fclose]
+    85 000000A5 83C404                      add esp, 4
+    86                                      
+    87 000000A8 6A00                        push dword 0
+    88 000000AA FF15[00000000]              call [exit]

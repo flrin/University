@@ -1,0 +1,45 @@
+     1                                  bits 32 ;asamblare și compilare pentru arhitectura de 32 biți
+     2                                  ; definim punctul de intrare in programul principal
+     3                                  global start
+     4                                  
+     5                                  ; declaram functiile externe necesare programului nostru 
+     6                                  extern exit ; indicam asamblorului ca exit exista, chiar daca noi nu o vom defini
+     7                                  import exit msvcrt.dll  ; exit este o functie care incheie procesul, este definita in msvcrt.dll
+     8                                          ; msvcrt.dll contine exit, printf si toate celelalte functii C-runtime importante
+     9                                          
+    10                                  ; segmentul de date in care se vor defini variabilele 
+    11                                  segment data use32 class=data
+    12                                  ; ... 
+    13 00000000 010306020307                s1 db 1, 3, 6, 2, 3, 7
+    14                                      len equ $-s1
+    15 00000006 060308010205                s2 db 6, 3, 8, 1, 2, 5
+    16 0000000C <res 00000006>              d resb len
+    17                                      
+    18                                  ; segmentul de cod
+    19                                  segment code use32 class=code
+    20                                  start:
+    21                                  ; ... 
+    22 00000000 BE00000000                  mov esi, 0
+    23 00000005 B906000000                  mov ecx, len
+    24                                      
+    25                                      main_loop:
+    26 0000000A 8A86[00000000]                  mov al, byte[s1 + esi]
+    27 00000010 3A86[06000000]                  cmp al, byte[s2 + esi]
+    28                                          
+    29 00000016 7E08                            jle second_bigger
+    30                                          ;first bigger
+    31 00000018 8A86[00000000]                  mov al, byte[s1+esi]
+    32                                          
+    33 0000001E EB06                            jmp first_bigger
+    34                                          second_bigger:
+    35                                          ;second bigger
+    36 00000020 8A86[06000000]                  mov al, byte[s2+esi]
+    37                                          first_bigger:
+    38                                          
+    39 00000026 8886[0C000000]                  mov byte[d+esi], al
+    40 0000002C 46                              inc esi
+    41 0000002D E2DB                        loop main_loop
+    42                                  
+    43                                      ; exit(0)
+    44 0000002F 6A00                        push dword 0 ; se pune pe stiva parametrul functiei exit
+    45 00000031 FF15[00000000]              call [exit] ; apelul functiei exit pentru terminarea executiei programului

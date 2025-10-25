@@ -1,0 +1,23 @@
+     1                                  ; The code below will print the message „Ana has 17 apples”
+     2                                  bits 32
+     3                                  global start        
+     4                                  
+     5                                  ; declare extern functions used by the program
+     6                                  extern exit, printf, scanf     ; add printf as extern function            
+     7                                  import exit msvcrt.dll    
+     8                                  import printf msvcrt.dll    ; tell the assembler that function printf can be found in library msvcrt.dll
+     9                                  import scanf msvcrt.dll
+    10                                  segment data use32 class=data
+    11                                  ; char arrays are of type byte
+    12 00000000 1D2C                     a dw 2C1Dh 
+    13 00000002 7A3B12                   b db 7Ah, 3Bh , 12h
+    14                                  				; char strings for C functions must terminate with 0
+    15                                  segment  code use32 class=code
+    16                                      start:
+    17 00000000 B0FF                            mov al, 0x00FF
+    18                                        
+    19                                          
+    20                                  
+    21                                          ; exit(0)
+    22 00000002 6A00                            push dword 0      ; push on stack the parameter for exit
+    23 00000004 FF15[00000000]                  call [exit]       ; call exit to terminate the programme

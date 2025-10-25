@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\School\\sem2\\dsa\\Lab5Ex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|solutionrelative:Lab5Ex\\MultiMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMapIterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|solutionrelative:Lab5Ex\\MultiMapIterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\ExtendedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|solutionrelative:Lab5Ex\\ExtendedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMapIterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|solutionrelative:Lab5Ex\\MultiMapIterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\ShortTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|solutionrelative:Lab5Ex\\ShortTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar_size.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|solutionrelative:Lab5Ex\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA89C8F-EF7E-450D-9C12-E63A8E6462C2}|Lab5Ex\\Lab5Ex.vcxproj|solutionrelative:Lab5Ex\\MultiMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 423,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "utility",
+              "DocumentMoniker": "D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility",
+              "ToolTip": "D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility",
+              "RelativeToolTip": "..\\..\\..\\..\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\include\\utility",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAYwBEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-22T19:55:33.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShortTest.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\ShortTest.cpp",
+              "RelativeDocumentMoniker": "Lab5Ex\\ShortTest.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\ShortTest.cpp",
+              "RelativeToolTip": "Lab5Ex\\ShortTest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T19:10:23.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "delete_scalar_size.cpp",
+              "DocumentMoniker": "D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar_size.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar_size.cpp",
+              "ToolTip": "D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar_size.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar_size.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T18:58:26.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "delete_scalar.cpp",
+              "DocumentMoniker": "D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ToolTip": "D:\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\Apps\\VisualStudio\\tools\\VC\\Tools\\MSVC\\14.43.34808\\crt\\src\\vcruntime\\delete_scalar.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T18:58:13.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MultiMapIterator.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMapIterator.cpp",
+              "RelativeDocumentMoniker": "Lab5Ex\\MultiMapIterator.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMapIterator.cpp",
+              "RelativeToolTip": "Lab5Ex\\MultiMapIterator.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T15:23:39.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\App.cpp",
+              "RelativeDocumentMoniker": "Lab5Ex\\App.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\App.cpp",
+              "RelativeToolTip": "Lab5Ex\\App.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-21T07:16:01.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MultiMap.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMap.cpp",
+              "RelativeDocumentMoniker": "Lab5Ex\\MultiMap.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMap.cpp",
+              "RelativeToolTip": "Lab5Ex\\MultiMap.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-21T08:18:41.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExtendedTest.cpp",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\ExtendedTest.cpp",
+              "RelativeDocumentMoniker": "Lab5Ex\\ExtendedTest.cpp",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\ExtendedTest.cpp",
+              "RelativeToolTip": "Lab5Ex\\ExtendedTest.cpp",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAYwO8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-21T07:15:48.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 205,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MultiMap.h",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMap.h",
+              "RelativeDocumentMoniker": "Lab5Ex\\MultiMap.h",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMap.h",
+              "RelativeToolTip": "Lab5Ex\\MultiMap.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-21T08:13:48.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MultiMapIterator.h",
+              "DocumentMoniker": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMapIterator.h",
+              "RelativeDocumentMoniker": "Lab5Ex\\MultiMapIterator.h",
+              "ToolTip": "D:\\School\\sem2\\dsa\\Lab5Ex\\Lab5Ex\\MultiMapIterator.h",
+              "RelativeToolTip": "Lab5Ex\\MultiMapIterator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-22T15:23:29.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
