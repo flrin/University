@@ -1,0 +1,165 @@
+# -------------------------------
+# Global OS and editor junk
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.orig
+*.old
+*.lock
+*.lnk
+
+# IDE JetBrains (PyCharm, IntelliJ IDEA, etc.)
+# ---------------------------------------------
+.idea/
+*.iml
+out/
+cmake-build-*/
+# JetBrains-specific caches
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries/
+.idea/**/dictionaries/
+.idea/**/modules.xml
+.idea/**/sonarlint/
+.idea/**/httpRequests/
+
+# Python / PyCharm
+# ---------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+*.coverage
+.coverage*
+.cache/
+.tox/
+dist/
+build/
+venv/
+env/
+ENV/
+venv*/
+.env*/
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.ipynb_checkpoints
+
+# Java / IntelliJ IDEA
+# ---------------------------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+.settings/
+.classpath
+.project
+bin/
+libs/
+# IntelliJ build system
+out/
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# Visual Studio / C++
+# ---------------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.ncb
+*.sdf
+*.opensdf
+*.ipch
+*.pdb
+*.obj
+*.pch
+*.idb
+*.dll
+*.exe
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.vscode/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]uild/
+[Bb]in/
+[Ii]ntermediate/
+*.cachefile
+*.manifest
+*.res
+*.aps
+
+# Assembly / MASM / NASM projects
+# ---------------------------------------------
+*.lst
+*.obj
+*.exe
+*.com
+*.bin
+*.out
+*.map
+*.o
+*.elf
+
+# CMake
+# ---------------------------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Logs & Reports
+# ---------------------------------------------
+*.log
+*.trace
+*.dmp
+
+# Misc
+# ---------------------------------------------
+# VS Code (if you also open the project there)
+.vscode/
+*.code-workspace
+
+# Python notebook checkpoints
+.ipynb_checkpoints/
+
+# Backup files
+*~
